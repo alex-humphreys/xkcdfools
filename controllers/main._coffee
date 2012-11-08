@@ -1,3 +1,19 @@
+###
+collections:
+
+nouns
+--------
+type value  user
+
+relationships
+---------
+a type b user
+
+users
+---------
+username pwd email created
+###
+
 Db = require('mongodb').Db
 Server = require('mongodb').Server
 join = require('path').join
