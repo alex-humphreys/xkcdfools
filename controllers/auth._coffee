@@ -4,6 +4,7 @@ join = require('path').join
 #auth = require join(__dirname, '..', 'libs', 'auth')
 
 setup = (app) ->
+  console.log 'TODO: write login method'
   ###
   # determine if the current session is logged in and returns a javascript that 
   # injects the user object into the DOM at whim.user

@@ -13,15 +13,15 @@ user
 
 ##RELATIONSHIPS
 ```
-[ text ] 						 #is 		 [ all nouns ]
-[ album | song | band | artist ] #feels 	 [ feeling ]
-[ artist | band ] 				 #influences [ artist | band ]
-								 #love 		 [ all nouns ]
-								 #hate 		 [ all nouns ]
-[ artist ] 						 #in 		 [ band | genre ]
-[ band ] 						 #in 		 [ genre ]
-[ artist | band ] 				 #performs 	 [ song ]
-[ artist | band ] 				 #wrote 	 [ song ]
+[ text ] 						  #is 		  [ all nouns ]
+[ album | song | band | artist ] #feels 	  [ feeling ]
+[ artist | band ] 				  #influences [ artist | band ]
+								  #love 	  [ all nouns ]
+								  #hate 	  [ all nouns ]
+[ artist ] 						  #in 		  [ band | genre ]
+[ band ] 						  #in 		  [ genre ]
+[ artist | band ] 				  #performs   [ song ]
+[ artist | band ] 				  #wrote 	  [ song ]
 ```
 
 ##VALIDATION
